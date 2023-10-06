@@ -12,6 +12,8 @@ async function loadTask() {
   
 }
 
+export const revalidate = 60;
+
 async function HomePage() {
   
   const tasks = await loadTask();
